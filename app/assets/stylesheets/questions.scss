@@ -3,10 +3,34 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .submit-button {
- background-color: rgb(26, 26, 126);
+ background-color: #007bff;
  color: white;
+ border-radius: 4px;
+ height: 35px;
+ width: 60px;
+}
+
+.placeholder {
+ height: 30px;
+ width: 30%;
+ border-radius: 4px;
 }
 
 a {
  text-decoration: none;
+ color: grey;
+ &:hover {
+   color: black;
+ }
+}
+
+h1 {
+ font-family: monospace;
+ font-size: 40px;
+}
+
+h2 {
+ font-family: monospace;
+ font-size: 25px;
+ font-weight: 300;
 }
